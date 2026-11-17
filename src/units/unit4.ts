@@ -1,0 +1,180 @@
+// UNIT 4 — Dividing Fractions (Amplify Desmos Math, Grade 6)
+// Floor 4 of Baron Grab's tower. Levels follow the 15 lessons in order.
+// To change a puzzle, change its numbers: answers and wrong options are computed.
+import { s } from '../engine/dom';
+import type { UnitDef } from '../engine/types';
+import { hamsterFly, hamsterReveal, vaultBurst } from '../screens/scenes';
+
+export const unit4: UnitDef = {
+  num: 4,
+  title: 'Dividing Fractions',
+  icon: '🍰',
+  color: '#ff9f1c',
+  levels: [
+    {
+      id: 'u4-1',
+      name: 'Big or Small?',
+      icon: '⚖️',
+      lessons: [1],
+      mechanic: 'sort',
+      intro: [{ who: 'baron', mood: 'smug', text: 'Sort my loot crates. Bet you can’t!' }],
+      rounds: [
+        { a: '20', b: '1/2' },
+        { a: '4/5', b: '2' },
+        { a: '3/4', b: '3/4' },
+        { a: '5', b: '2 1/2' },
+        { a: '20', b: '200' },
+        { a: '7/8', b: '1/8' },
+      ],
+    },
+    {
+      id: 'u4-2',
+      name: 'Goo Bridge',
+      icon: '🌉',
+      lessons: [2, 3, 5],
+      mechanic: 'bridge',
+      intro: [{ who: 'mystery', text: 'Psst! The snacks are across the goo. Use the bridge!' }],
+      rounds: [
+        { gap: '2', plank: '1/2', intro: true },
+        { gap: '4', plank: '1/3' },
+        { gap: '2', plank: '2/5' },
+        { gap: '3', plank: '3/4' },
+        { gap: '2', plank: '3/4' },
+      ],
+    },
+    {
+      id: 'u4-3',
+      name: 'Cookie Jars',
+      icon: '🍪',
+      lessons: [4, 8],
+      mechanic: 'jar',
+      intro: [{ who: 'baron', mood: 'laugh', text: 'Fill my jars. Too many? KABOOM!' }],
+      rounds: [
+        { part: '1/3', amount: 3, item: '🍪' },
+        { part: '3/4', amount: 12, item: '🍓' },
+        { part: '2/5', amount: 6, item: '🍬' },
+        { part: '3/2', amount: 18, item: '🧁' },
+        { part: '2/3', amount: 10, item: '🍩' },
+      ],
+    },
+    {
+      id: 'u4-4',
+      name: 'Snack Bars',
+      icon: '🍫',
+      lessons: [6, 7],
+      mechanic: 'slicer',
+      intro: [{ who: 'baron', mood: 'smug', text: 'Guess wrong and my lasers go ZAP!' }],
+      rounds: [
+        { a: '3/4', b: '1/4' },
+        { a: '2/3', b: '1/6' },
+        { a: '3/4', b: '2/3' },
+        { a: '1/2', b: '1 1/4' },
+        { a: '1/4', b: '1/3' },
+      ],
+    },
+    {
+      // Halfway: the deeper rule. After this, the 🔄 Flip button shows up.
+      id: 'u4-5',
+      name: 'Flip Trick',
+      icon: '🔄',
+      lessons: [8, 9, 10],
+      mechanic: 'flip',
+      intro: [{ who: 'mystery', text: 'Baron hides a secret trick. Watch the board for a pattern!' }],
+      rounds: [
+        { kind: 'see', a: 2, d: 3 },
+        { kind: 'see', a: 3, d: 4 },
+        { kind: 'see', a: 4, d: 5 },
+        { kind: 'predict', a: 7, d: 8 },
+        { kind: 'flip', a: '5', b: '1/100' },
+        { kind: 'flip', a: '3/4', b: '3/8' },
+      ],
+    },
+    {
+      id: 'u4-6',
+      name: 'Grow Ray',
+      icon: '⚡',
+      lessons: [11, 12],
+      mechanic: 'ray',
+      intro: [{ who: 'mystery', text: 'Zap yourself to the guard’s size. Then sneak past!' }],
+      rounds: [
+        { from: '1', to: '3' },
+        { from: '2', to: '1' },
+        { from: '1 1/2', to: '3 3/4' },
+        { from: '2 1/4', to: '3/4' },
+        { from: '3 3/4', to: '1 1/2' },
+      ],
+    },
+    {
+      id: 'u4-7',
+      name: 'Getaway',
+      icon: '🚚',
+      lessons: [13, 14],
+      mechanic: 'crate',
+      intro: [{ who: 'mystery', text: 'Pack the loot. Not too much, not too little!' }],
+      rounds: [
+        { kind: 'volume', dims: ['2', '1', '1 1/2'] },
+        { kind: 'area', side: '1 1/2', area: '3' },
+        { kind: 'volume', dims: ['4', '1 1/2', '1/2'] },
+        { kind: 'area', side: '3/4', area: '6' },
+        { kind: 'volume', dims: ['1 1/2', '1 1/2', '1'] },
+      ],
+    },
+    {
+      id: 'u4-8',
+      name: 'The Vault',
+      icon: '👑',
+      lessons: [15],
+      mechanic: 'guards',
+      boss: true,
+      intro: [{ who: 'baron', mood: 'angry', text: 'My vault has SIX locks. You will NEVER get in!' }],
+      rounds: [
+        { a: '4', b: '1/2', lie: '2' },
+        { mechanic: 'bridge', gap: '3', plank: '2/3' },
+        { mechanic: 'jar', part: '3/4', amount: 9, item: '🍪' },
+        { mechanic: 'flip', kind: 'flip', a: '5/6', b: '2/3' },
+        { mechanic: 'ray', from: '1 1/4', to: '3 3/4' },
+        { a: '3/4', b: '3/8', lie: '9/32' },
+      ],
+    },
+  ],
+
+  // The mystery picture: an X-ray of Baron... with someone inside.
+  secret: () => {
+    const st = { stroke: '#dff3ff', 'stroke-width': 3, fill: 'none', 'stroke-linecap': 'round', 'stroke-linejoin': 'round' };
+    return s('svg', { viewBox: '0 0 400 280', class: 'secret-svg' },
+      s('defs', {}, s('pattern', { id: 'bp4', width: 20, height: 20, patternUnits: 'userSpaceOnUse' }, s('path', { d: 'M20 0 H0 V20', fill: 'none', stroke: 'rgba(255,255,255,.14)', 'stroke-width': 1 }))),
+      s('rect', { width: 400, height: 280, fill: '#1d4f91' }),
+      s('rect', { width: 400, height: 280, fill: 'url(#bp4)' }),
+      s('rect', { x: 150, y: 10, width: 100, height: 48, rx: 4, ...st }),
+      s('path', { d: 'M116 60 H284', ...st, 'stroke-width': 5 }),
+      s('rect', { x: 100, y: 66, width: 200, height: 200, rx: 40, ...st }),
+      s('circle', { cx: 252, cy: 104, r: 22, ...st }),
+      s('path', { d: 'M200 252 C190 240 166 238 150 250 M200 252 C210 240 234 238 250 250', ...st, 'stroke-width': 5 }),
+      // the pilot
+      s('circle', { cx: 168, cy: 150, r: 11, fill: '#e76f51' }),
+      s('circle', { cx: 224, cy: 150, r: 11, fill: '#e76f51' }),
+      s('ellipse', { cx: 196, cy: 186, rx: 44, ry: 40, fill: '#f4a261', stroke: '#fff', 'stroke-width': 2 }),
+      s('ellipse', { cx: 196, cy: 200, rx: 26, ry: 22, fill: '#fde8d0' }),
+      s('rect', { x: 156, y: 152, width: 80, height: 8, rx: 4, fill: '#6c584c' }),
+      s('circle', { cx: 182, cy: 156, r: 9, fill: '#9ad1ff', stroke: '#6c584c', 'stroke-width': 3 }),
+      s('circle', { cx: 210, cy: 156, r: 9, fill: '#9ad1ff', stroke: '#6c584c', 'stroke-width': 3 }),
+      s('circle', { cx: 183, cy: 178, r: 4.5, fill: '#111' }),
+      s('circle', { cx: 209, cy: 178, r: 4.5, fill: '#111' }),
+      s('ellipse', { cx: 172, cy: 190, rx: 8, ry: 6, fill: '#ffb4a2' }),
+      s('ellipse', { cx: 220, cy: 190, rx: 8, ry: 6, fill: '#ffb4a2' }),
+      s('path', { d: 'M248 226 L264 176', ...st }),
+      s('circle', { cx: 266, cy: 170, r: 8, fill: '#ff4f8b' }),
+      s('circle', { cx: 132, cy: 206, r: 20, ...st }),
+      s('path', { d: 'M112 206 H152 M132 186 V226', ...st, 'stroke-width': 2 }),
+      s('text', { x: 14, y: 34, fill: '#dff3ff', 'font-size': 20, 'font-weight': 700, 'font-family': 'Fredoka, sans-serif' }, 'TOP SECRET'),
+      s('text', { x: 318, y: 246, fill: '#ffd23f', 'font-size': 44, 'font-weight': 700, 'font-family': 'Fredoka, sans-serif' }, '?!'),
+    );
+  },
+
+  finale: [
+    { who: 'baron', mood: 'shock', text: 'NO! My vault! My SNACKS!', scene: vaultBurst },
+    { who: 'hamster', text: 'Eep! You found me! I was driving the Baron!', scene: hamsterReveal, hidePortrait: true },
+    { who: 'hamster', text: 'But I’m not the real boss. Byeee!', scene: hamsterFly, hidePortrait: true },
+    { who: 'mystery', text: 'Snacks: saved. Floor 5 is next... soon.' },
+  ],
+};

@@ -1,0 +1,163 @@
+// UNIT 3 — Unit Rates and Percentages (Amplify Desmos Math, Grade 6)
+// Floor 3 of Baron's tower: the measuring lab, the race track, the mega mall.
+import { s } from '../engine/dom';
+import type { UnitDef } from '../engine/types';
+import { vaultBurst } from '../screens/scenes';
+
+export const unit3: UnitDef = {
+  num: 3,
+  title: 'Rates & Percents',
+  icon: '💯',
+  color: '#b388ff',
+  levels: [
+    {
+      id: 'u3-1',
+      name: 'Size It Up',
+      icon: '📏',
+      lessons: [1, 2],
+      mechanic: 'units',
+      intro: [{ who: 'mystery', text: 'Pick the right unit. Not too big, not too small!' }],
+      rounds: [
+        { kind: 'best', item: '✏️', name: 'a pencil', units: ['mm', 'cm', 'km'], answer: 'cm' },
+        { kind: 'best', item: '🛣️', name: 'a road trip', units: ['cm', 'm', 'km'], answer: 'km' },
+        { kind: 'longer', a: [3, 'm'], b: [3, 'ft'] },
+        { kind: 'best', item: '🐜', name: 'an ant', units: ['mm', 'm', 'km'], answer: 'mm' },
+        { kind: 'longer', a: [1, 'yd'], b: [1, 'm'] },
+        { kind: 'best', item: '🛁', name: 'the water in a bathtub', units: ['mL', 'cup', 'gal'], answer: 'gal' },
+      ],
+    },
+    {
+      id: 'u3-2',
+      name: 'Convert-o-matic',
+      icon: '🔁',
+      lessons: [3],
+      mechanic: 'dnl',
+      intro: [{ who: 'mystery', text: 'Baron mixes up his units. Convert them on the tracks!' }],
+      rounds: [
+        { top: ['ft', 1], bottom: ['in', 12], ticks: 5, at: 3, ask: 'bottom' },
+        { top: ['yd', 1], bottom: ['ft', 3], ticks: 6, at: 5, ask: 'bottom' },
+        { top: ['m', 1], bottom: ['cm', 100], ticks: 5, at: 4, ask: 'bottom' },
+        { top: ['min', 1], bottom: ['s', 60], ticks: 5, at: 3, ask: 'bottom' },
+        { top: ['gal', 1], bottom: ['qt', 4], ticks: 6, at: 5, ask: 'top' },
+      ],
+    },
+    {
+      id: 'u3-3',
+      name: 'Robo Race',
+      icon: '🏁',
+      lessons: [4, 5],
+      mechanic: 'race',
+      intro: [{ who: 'baron', mood: 'laugh', text: 'Bet on my robo-race. You’ll LOSE!' }],
+      rounds: [
+        { racers: [['🐢', 10, 5], ['🐇', 30, 5], ['🤖', 20, 5]] },
+        { racers: [['🐢', 100, 50], ['🦖', 60, 20], ['🤖', 90, 45]] },
+        { racers: [['🏎️', 400, 50], ['🚲', 600, 100]] },
+        { racers: [['🐆', 100, 4], ['🐇', 60, 2], ['🤖', 80, 4]] },
+        { racers: [['🚂', 3, 2], ['🚀', 10, 5], ['🛸', 5, 2]], dist: 'km', time: 'min' },
+      ],
+    },
+    {
+      id: 'u3-4',
+      name: 'Price Tags',
+      icon: '🏷️',
+      lessons: [6, 7, 8],
+      mechanic: 'table',
+      intro: [{ who: 'baron', mood: 'smug', text: 'Welcome to my mall. My prices are... tricky.' }],
+      rounds: [
+        { cols: ['lb', '$'], fmt: ['frac', 'money'], rows: [['4', '5'], ['1', '?']], say: '4 pounds of granola cost 5 dollars. How much for 1 pound?' },
+        { cols: ['lb', '$'], fmt: ['frac', 'money'], rows: [['4', '10'], ['6', '?']], say: '4 pounds of apples cost 10 dollars. How much for 6 pounds?' },
+        { cols: ['oz', '$'], fmt: ['frac', 'money'], rows: [['8', '6.4'], ['1', '?']], say: '8 ounces of soft serve cost 6 dollars and 40 cents. How much for 1 ounce?' },
+        { cols: ['$', 'oz'], fmt: ['money', 'frac'], rows: [['6.4', '8'], ['1', '?']], say: '6 dollars and 40 cents buys 8 ounces. How many ounces for 1 dollar?' },
+        { cols: ['🎟️', '$'], fmt: ['frac', 'money'], rows: [['3', '12'], ['7', '?']], say: '3 tickets cost 12 dollars. How much for 7 tickets?' },
+      ],
+    },
+    {
+      // Halfway: the deeper rule. After this, the 🔍 Percent decoder shows up.
+      id: 'u3-5',
+      name: 'Percent Decoder',
+      icon: '🔍',
+      lessons: [9, 10],
+      mechanic: 'tape',
+      intro: [{ who: 'mystery', text: 'Baron’s mall is full of percents. Let’s crack the code!' }],
+      rounds: [
+        { kind: 'pct', pct: 50, whole: '40', ask: 'part', reveal: 'see' },
+        { kind: 'pct', pct: 25, whole: '60', ask: 'part', reveal: 'see' },
+        { kind: 'pct', pct: 75, whole: '80', ask: 'part', reveal: 'predict' },
+        { kind: 'pct', pct: 20, part: '8', ask: 'whole' },
+        { kind: 'pct', pct: 10, whole: '70', ask: 'part' },
+      ],
+    },
+    {
+      id: 'u3-6',
+      name: 'Mega Sale',
+      icon: '🛍️',
+      lessons: [11, 12],
+      mechanic: 'tape',
+      intro: [{ who: 'baron', mood: 'laugh', text: 'MEGA SALE! Can you even do the math?' }],
+      rounds: [
+        { kind: 'pct', pct: 60, part: '24', ask: 'whole', fmt: 'money' },
+        { kind: 'pct', pct: 25, whole: '36', ask: 'part', fmt: 'money' },
+        { kind: 'pct', pct: 50, whole: '14', ask: 'part', fmt: 'money' },
+        { kind: 'pct', pct: 40, whole: '30', ask: 'part', fmt: 'money' },
+        { kind: 'pct', pct: 30, part: '6', ask: 'whole', fmt: 'money' },
+      ],
+    },
+    {
+      id: 'u3-7',
+      name: 'Percent Ray',
+      icon: '⚡',
+      lessons: [13, 14],
+      mechanic: 'ray',
+      intro: [{ who: 'mystery', text: 'Zap yourself to a percent of your height. Match the guard!' }],
+      rounds: [
+        { from: '4', to: '2', pct: true },
+        { from: '4', to: '1', pct: true },
+        { from: '2', to: '3', pct: true },
+        { from: '4', to: '3', pct: true },
+        { from: '2 1/2', to: '1', pct: true },
+      ],
+    },
+    {
+      id: 'u3-8',
+      name: 'The Vault',
+      icon: '👑',
+      lessons: [14],
+      mechanic: 'tape',
+      boss: true,
+      intro: [{ who: 'baron', mood: 'angry', text: 'My Floor 3 vault has SIX locks!' }],
+      rounds: [
+        { kind: 'pct', pct: 25, whole: '48', ask: 'part' },
+        { mechanic: 'guards', kind: 'pct', p: 20, w: '35', lie: '20' },
+        { mechanic: 'race', racers: [['🐌', 2, 4], ['🐢', 3, 5], ['🦔', 5, 10]] },
+        { mechanic: 'table', cols: ['🍦', '$'], fmt: ['frac', 'money'], rows: [['3', '4.5'], ['5', '?']], say: '3 ice creams cost 4 dollars and 50 cents. How much for 5?' },
+        { mechanic: 'units', kind: 'longer', a: [2, 'ft'], b: [20, 'in'] },
+        { mechanic: 'ray', from: '2', to: '2 1/2', pct: true },
+      ],
+    },
+  ],
+
+  // Mystery picture: a security camera still. Something tiny climbs into Baron's hat...
+  secret: () =>
+    s('svg', { viewBox: '0 0 400 280', class: 'secret-svg' },
+      s('rect', { width: 400, height: 280, fill: '#0f2a1d' }),
+      [...Array(14)].map((_, i) => s('line', { x1: 0, y1: i * 20 + 4, x2: 400, y2: i * 20 + 4, stroke: 'rgba(160,255,190,.07)', 'stroke-width': 3 })),
+      s('rect', { x: 150, y: 70, width: 110, height: 60, rx: 4, fill: '#06140d' }),
+      s('rect', { x: 120, y: 126, width: 170, height: 12, rx: 6, fill: '#06140d' }),
+      s('rect', { x: 140, y: 140, width: 130, height: 120, rx: 26, fill: '#06140d' }),
+      s('g', { fill: '#06140d' },
+        s('ellipse', { cx: 238, cy: 62, rx: 16, ry: 13 }),
+        s('circle', { cx: 228, cy: 50, r: 6 }),
+        s('circle', { cx: 248, cy: 50, r: 6 })),
+      s('circle', { cx: 238, cy: 58, r: 30, fill: 'none', stroke: '#ff3b3b', 'stroke-width': 4 }),
+      s('text', { x: 280, y: 40, 'font-size': 26, fill: '#ff3b3b', 'font-weight': 700, 'font-family': 'Fredoka, sans-serif' }, '?!'),
+      s('circle', { cx: 24, cy: 26, r: 7, fill: '#ff3b3b' }),
+      s('text', { x: 38, y: 34, 'font-size': 20, fill: '#a8ffc4', 'font-family': 'monospace' }, 'REC'),
+      s('text', { x: 250, y: 268, 'font-size': 16, fill: '#a8ffc4', 'font-family': 'monospace' }, 'CAM 3 · 02:13'),
+    ),
+
+  finale: [
+    { who: 'baron', mood: 'shock', text: 'My mall! My MEGA SALE!', scene: vaultBurst },
+    { who: 'mystery', text: 'Look at this security camera picture...' },
+    { who: 'mystery', text: 'Something tiny just climbed into Baron’s hat! To Floor 4!' },
+  ],
+};

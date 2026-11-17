@@ -1,0 +1,873 @@
+{
+  "model": "eleven_v3",
+  "clips": {
+    "baron-158d3c3478ce3995": {
+      "who": "baron",
+      "text": "Floor 3 will stop you. It’s full of numbers!"
+    },
+    "baron-26515694c0ac2e75": {
+      "who": "baron",
+      "text": "WHAT?!"
+    },
+    "baron-2e3117168e3aff61": {
+      "who": "baron",
+      "text": "Impossible!"
+    },
+    "baron-443d48bf06c37124": {
+      "who": "baron",
+      "text": "My floors LEAN. Bet you can’t paint them!"
+    },
+    "baron-4da767882e0592c1": {
+      "who": "baron",
+      "text": "No fair!"
+    },
+    "baron-5622eba95c7579ee": {
+      "who": "baron",
+      "text": "ALL the snacks are MINE! Mwa-ha-ha!"
+    },
+    "baron-5a5f262a0df929e1": {
+      "who": "baron",
+      "text": "Grrr!"
+    },
+    "baron-5f077253d4143216": {
+      "who": "baron",
+      "text": "Oops! No bridge!"
+    },
+    "baron-6388c1fab754b783": {
+      "who": "baron",
+      "text": "Lucky guess!"
+    },
+    "baron-64841833c5c991f6": {
+      "who": "baron",
+      "text": "My mall! My MEGA SALE!"
+    },
+    "baron-797dddaba70012dc": {
+      "who": "baron",
+      "text": "Crack THIS!"
+    },
+    "baron-83afec2be453af74": {
+      "who": "baron",
+      "text": "Fill my jars. Too many? KABOOM!"
+    },
+    "baron-8425ae30a2f2b3f5": {
+      "who": "baron",
+      "text": "My scales must stay balanced. Or else!"
+    },
+    "baron-8a1e8481785640d2": {
+      "who": "baron",
+      "text": "Nope!"
+    },
+    "baron-8c5cf2fe55a284d9": {
+      "who": "baron",
+      "text": "My Floor 3 vault has SIX locks!"
+    },
+    "baron-8f0f7547377445f4": {
+      "who": "baron",
+      "text": "Triangle floors. Even sneakier. Ha!"
+    },
+    "baron-98d9bfc9b1df394c": {
+      "who": "baron",
+      "text": "Welcome to my mall. My prices are... tricky."
+    },
+    "baron-9eaf8632722bac5d": {
+      "who": "baron",
+      "text": "Bet on my robo-race. You’ll LOSE!"
+    },
+    "baron-9f6b4d71b9b8b58c": {
+      "who": "baron",
+      "text": "My trains never stop together. Ha!"
+    },
+    "baron-a4f9d647fb1a63f8": {
+      "who": "baron",
+      "text": "Fill it or wrap it? You’ll mix them up!"
+    },
+    "baron-a502479a9cce2c39": {
+      "who": "baron",
+      "text": "You can’t see the back! Ha!"
+    },
+    "baron-a719cc06fd2c50b7": {
+      "who": "baron",
+      "text": "Wrong-o!"
+    },
+    "baron-acea4e7d7808137a": {
+      "who": "baron",
+      "text": "No peeking! Ha!"
+    },
+    "baron-b3bac5dd0f24e2a8": {
+      "who": "baron",
+      "text": "My smoothies need EXACT recipes. Mess up and... BLORP!"
+    },
+    "baron-baca307c634f7cd3": {
+      "who": "baron",
+      "text": "Ha-ha-ha!"
+    },
+    "baron-bb5149b4105bba41": {
+      "who": "baron",
+      "text": "Too many to count! Ha!"
+    },
+    "baron-bb8235dca2fea24b": {
+      "who": "baron",
+      "text": "HA!"
+    },
+    "baron-c338e5ca995de0c3": {
+      "who": "baron",
+      "text": "My Floor 1 vault has SIX locks. Good luck!"
+    },
+    "baron-c61f03118bbfabaa": {
+      "who": "baron",
+      "text": "Plan my party. Too little food? TOMATOES!"
+    },
+    "baron-d18cd484daa5d6a9": {
+      "who": "baron",
+      "text": "My floors are lasers! Step wrong and... ZAP!"
+    },
+    "baron-d8b1014d594ef5b4": {
+      "who": "baron",
+      "text": "Who is wrapping my snacks?! Stop it!"
+    },
+    "baron-dcffd917b97554fc": {
+      "who": "baron",
+      "text": "NO! My snacks! My beautiful snacks!"
+    },
+    "baron-e134d68d835d3982": {
+      "who": "baron",
+      "text": "Guess wrong and my lasers go ZAP!"
+    },
+    "baron-e3a07705c4ca3b9e": {
+      "who": "baron",
+      "text": "Too easy!"
+    },
+    "baron-e9ffdf723a7542ab": {
+      "who": "baron",
+      "text": "Fine! But you will NEVER beat Floor 2!"
+    },
+    "baron-eb9c4daef655da79": {
+      "who": "baron",
+      "text": "My ratio vault has SIX locks!"
+    },
+    "baron-eef1db8b9d58510a": {
+      "who": "baron",
+      "text": "My vault has SIX locks. You will NEVER get in!"
+    },
+    "baron-f26a94fc44b677cb": {
+      "who": "baron",
+      "text": "My smoothies! My recipes! NOOO!"
+    },
+    "baron-f8f1792f18a88366": {
+      "who": "baron",
+      "text": "NO! My vault! My SNACKS!"
+    },
+    "baron-fde4dcbe1d91c663": {
+      "who": "baron",
+      "text": "MEGA SALE! Can you even do the math?"
+    },
+    "baron-ff75237217a06175": {
+      "who": "baron",
+      "text": "Sort my loot crates. Bet you can’t!"
+    },
+    "hamster-035b54fb01ed0ba4": {
+      "who": "hamster",
+      "text": "But I’m not the real boss. Byeee!"
+    },
+    "hamster-d18a979db91c3d5e": {
+      "who": "hamster",
+      "text": "Eep! You found me! I was driving the Baron!"
+    },
+    "mystery-031fec440a8eb185": {
+      "who": "mystery",
+      "text": "Pick the right unit. Not too big, not too small!"
+    },
+    "mystery-11c28cdce1ebc0b9": {
+      "who": "mystery",
+      "text": "Zap yourself to a percent of your height. Match the guard!"
+    },
+    "mystery-15344f4675510e75": {
+      "who": "mystery",
+      "text": "Baron’s mall is full of percents. Let’s crack the code!"
+    },
+    "mystery-2a2201c800e3f21f": {
+      "who": "mystery",
+      "text": "Wrap Baron’s snack boxes like presents. Nobody will notice!"
+    },
+    "mystery-325b0e0119fbbcb6": {
+      "who": "mystery",
+      "text": "Weird rooms! Break them into shapes you know."
+    },
+    "mystery-3b78c9ce1c70cb45": {
+      "who": "mystery",
+      "text": "Paint yourself dark to hide in the shadows!"
+    },
+    "mystery-4589a41455b27605": {
+      "who": "mystery",
+      "text": "Psst! The snacks are across the goo. Use the bridge!"
+    },
+    "mystery-6924c89e3690a7ad": {
+      "who": "mystery",
+      "text": "Something tiny just climbed into Baron’s hat! To Floor 4!"
+    },
+    "mystery-7a29b9374b68d08e": {
+      "who": "mystery",
+      "text": "Did you hear that? Something inside Baron just squeaked..."
+    },
+    "mystery-8959efc21a153bb7": {
+      "who": "mystery",
+      "text": "Baron’s tables hide a trick. Watch the row with a 1!"
+    },
+    "mystery-9d0582397cb365c6": {
+      "who": "mystery",
+      "text": "Snacks: saved. Floor 5 is next... soon."
+    },
+    "mystery-a6d0f8696e94d7ac": {
+      "who": "mystery",
+      "text": "Baron dropped a shopping list... Nine thousand sunflower seeds? Hmm."
+    },
+    "mystery-acc23e2cdf83674b": {
+      "who": "mystery",
+      "text": "Baron mixes up his units. Convert them on the tracks!"
+    },
+    "mystery-af522ec950469146": {
+      "who": "mystery",
+      "text": "Look at this security camera picture..."
+    },
+    "mystery-b9113e107d5bb0b1": {
+      "who": "mystery",
+      "text": "Flip trick! Dividing by a fraction? Flip it, and multiply!"
+    },
+    "mystery-bb9b34ea7b2a9963": {
+      "who": "mystery",
+      "text": "Unfold it! Then you can see every side of the box at once."
+    },
+    "mystery-be13a3a437418b31": {
+      "who": "mystery",
+      "text": "Per one trick! Divide down to one. Then multiply up to anything."
+    },
+    "mystery-c84a3e48436c0429": {
+      "who": "mystery",
+      "text": "Baron hides a secret trick. Watch the board for a pattern!"
+    },
+    "mystery-c8bfabe9be22416e": {
+      "who": "mystery",
+      "text": "Percent decoder! Percent means out of 100. So 75% is 75 out of 100. That's 3/4."
+    },
+    "mystery-ce72835bd9eeffa0": {
+      "who": "mystery",
+      "text": "Two tracks that count together. Ride to the cookie!"
+    },
+    "mystery-cedaf9c88298beb9": {
+      "who": "mystery",
+      "text": "Pack the loot. Not too much, not too little!"
+    },
+    "mystery-d77f310072d52af9": {
+      "who": "mystery",
+      "text": "Zap yourself to the guard’s size. Then sneak past!"
+    },
+    "mystery-e5ff59e39b1efa42": {
+      "who": "mystery",
+      "text": "You are raccoons. You were BORN for this. Get them back!"
+    },
+    "mystery-f0d80dd569dbd98a": {
+      "who": "mystery",
+      "text": "Psst! Look at the city... Watch the snacks!"
+    },
+    "narrator-0009f197fa18c16e": {
+      "who": "narrator",
+      "text": "How much loot fits in the crate? Each tiny cube is one eighth."
+    },
+    "narrator-01aaa1ee5a34dabd": {
+      "who": "narrator",
+      "text": "How much wrapping paper covers this box? It is 2 by 5 by 4."
+    },
+    "narrator-028b6d48ff06729f": {
+      "who": "narrator",
+      "text": "How many blue sticks fit in the chocolate bar? 3/4 ÷ 2/3."
+    },
+    "narrator-07651608148e754f": {
+      "who": "narrator",
+      "text": "Pick a floor!"
+    },
+    "narrator-08b0f2024653d7d5": {
+      "who": "narrator",
+      "text": "This triangle floor has a base of 8 and a height of 3. How many squares of paint?"
+    },
+    "narrator-08c497ddceae8dc8": {
+      "who": "narrator",
+      "text": "7/8 ÷ 1/8. Is it more than 1, exactly 1, or less than 1?"
+    },
+    "narrator-0a2003c80090c2e1": {
+      "who": "narrator",
+      "text": "Share 8 cookies and 12 cupcakes into matching bags. What is the most bags?"
+    },
+    "narrator-0ac091823269cbb3": {
+      "who": "narrator",
+      "text": "This slanted floor has a base of 6 and a height of 4. How many squares of paint?"
+    },
+    "narrator-0d640fc1edda8414": {
+      "who": "narrator",
+      "text": "4 pounds of apples cost 10 dollars. How much do 3 pounds cost?"
+    },
+    "narrator-0df7eb5ff12e2bac": {
+      "who": "narrator",
+      "text": "2 parks for every 5 buildings. 35 in all. How many buildings?"
+    },
+    "narrator-114b0a1a03d835f1": {
+      "who": "narrator",
+      "text": "The recipe uses 4 grapes for every 1 apple. We have 3 apples. How many grapes do we need?"
+    },
+    "narrator-11e194f4dc75c87d": {
+      "who": "narrator",
+      "text": "What percent of 4 is 3? Zap the raccoon to the guard's size."
+    },
+    "narrator-124b5091cad6db2c": {
+      "who": "narrator",
+      "text": "4 pounds of apples cost 10 dollars. How much for 6 pounds?"
+    },
+    "narrator-1638b6740c8bac2f": {
+      "who": "narrator",
+      "text": "How many squares of paint cover this laser floor?"
+    },
+    "narrator-1848d9ce784d15cf": {
+      "who": "narrator",
+      "text": "1 1/2 of a jar holds 18. How many fill the whole jar?"
+    },
+    "narrator-1d5cad8b2e90245a": {
+      "who": "narrator",
+      "text": "What is 25% of 48?"
+    },
+    "narrator-1e5a8dbff1746ae2": {
+      "who": "narrator",
+      "text": "Make the raccoon as tall as the guard. 3 3/4 times what equals 1 1/2?"
+    },
+    "narrator-1f9587fb83a86926": {
+      "who": "narrator",
+      "text": "This slanted floor has a base of 7 and a height of 2. How many squares of paint?"
+    },
+    "narrator-21101e09a828ddba": {
+      "who": "narrator",
+      "text": "4 cupcakes go with 3 chocolate bars. How many cupcakes go with 12 chocolate bars?"
+    },
+    "narrator-271b9328cba139df": {
+      "who": "narrator",
+      "text": "What is 25% of $36?"
+    },
+    "narrator-2892b8857329d7bc": {
+      "who": "narrator",
+      "text": "Which rope is longer? Rope A is 2 feet. Rope B is 20 inches."
+    },
+    "narrator-2aa568e52d8502c4": {
+      "who": "narrator",
+      "text": "The red train comes every 4 minutes. The blue train comes every 6 minutes. When do they both come?"
+    },
+    "narrator-2ad0c985a201e096": {
+      "who": "narrator",
+      "text": "3/4 of a jar holds 12. How many fill the whole jar?"
+    },
+    "narrator-2d353fa1229ee254": {
+      "who": "narrator",
+      "text": "5 cookies cost 2 dollars. How much do 12 cookies cost?"
+    },
+    "narrator-2e090851d0049294": {
+      "who": "narrator",
+      "text": "2/3 of a jar holds 10. How many fill the whole jar?"
+    },
+    "narrator-2e9a7ad22a794a8b": {
+      "who": "narrator",
+      "text": "9 strawberries balance 6 melons. How many melons balance 6 strawberries?"
+    },
+    "narrator-30e94a400d24856d": {
+      "who": "narrator",
+      "text": "The gap is 2. Each plank is 2/5. How many planks?"
+    },
+    "narrator-323ba7e9aa43a9f0": {
+      "who": "narrator",
+      "text": "The red train comes every 3 minutes. The blue train comes every 5 minutes. When do they both come?"
+    },
+    "narrator-3316c7ab34d4a9ea": {
+      "who": "narrator",
+      "text": "Make the raccoon as tall as the guard. 2 1/4 times what equals 3/4?"
+    },
+    "narrator-3519a19eafaf46a9": {
+      "who": "narrator",
+      "text": "This triangle floor has a base of 6 and a height of 5. How many squares of paint?"
+    },
+    "narrator-35c75d85183723fc": {
+      "who": "narrator",
+      "text": "How many 1/8 pieces are in 7?"
+    },
+    "narrator-36424f0712bf4f6e": {
+      "who": "narrator",
+      "text": "What percent of 4 is 2? Zap the raccoon to the guard's size."
+    },
+    "narrator-38779f1d09d82b56": {
+      "who": "narrator",
+      "text": "What is 40% of $30?"
+    },
+    "narrator-398603786af4067f": {
+      "who": "narrator",
+      "text": "How many blue sticks fit in the chocolate bar? 2/3 ÷ 1/6."
+    },
+    "narrator-3b40510c1b0559db": {
+      "who": "narrator",
+      "text": "$24 is 60% of what?"
+    },
+    "narrator-3ce271ff1f564358": {
+      "who": "narrator",
+      "text": "How much wrapping paper covers this box? It is 4 by 4 by 4."
+    },
+    "narrator-3d8fc1877653e672": {
+      "who": "narrator",
+      "text": "20 ÷ 200. Is it more than 1, exactly 1, or less than 1?"
+    },
+    "narrator-41255bd1a5642d22": {
+      "who": "narrator",
+      "text": "Amazing! Three stars!"
+    },
+    "narrator-42026e86c80f411f": {
+      "who": "narrator",
+      "text": "Make the raccoon as tall as the guard. 1 1/4 times what equals 3 3/4?"
+    },
+    "narrator-42b948664a0fadc5": {
+      "who": "narrator",
+      "text": "2/5 of a jar holds 6. How many fill the whole jar?"
+    },
+    "narrator-43357556e802e11d": {
+      "who": "narrator",
+      "text": "Make the raccoon as tall as the guard. 1 times what equals 3?"
+    },
+    "narrator-4441a199d8d62634": {
+      "who": "narrator",
+      "text": "What is 25% of 60?"
+    },
+    "narrator-465e7837385cf866": {
+      "who": "narrator",
+      "text": "How many squares of paint cover this weird room?"
+    },
+    "narrator-48014019c3b1330a": {
+      "who": "narrator",
+      "text": "How much wrapping paper covers this box? It is 2 by 2 by 2."
+    },
+    "narrator-490fc9c0cae5470d": {
+      "who": "narrator",
+      "text": "4 apples balance 1 watermelon. How many watermelons balance 12 apples?"
+    },
+    "narrator-497703b584c9b112": {
+      "who": "narrator",
+      "text": "How many sugar cubes fill this crate?"
+    },
+    "narrator-4b087e28a952b8b1": {
+      "who": "narrator",
+      "text": "Cut a hole for the loot box. Its area is 6. One side is 3/4. How long is the other side?"
+    },
+    "narrator-4d60db90c59e1b1d": {
+      "who": "narrator",
+      "text": "5 ÷ 1/100"
+    },
+    "narrator-4fbcfc75152fe6c6": {
+      "who": "narrator",
+      "text": "Which rope is longer? Rope A is 3 meters. Rope B is 3 feet."
+    },
+    "narrator-5220279269b51721": {
+      "who": "narrator",
+      "text": "How many 1/5 pieces are in 4?"
+    },
+    "narrator-52d7430b59c0ed4a": {
+      "who": "narrator",
+      "text": "The gap is 3. Each plank is 2/3. How many planks?"
+    },
+    "narrator-53f71c8e677be469": {
+      "who": "narrator",
+      "text": "8 ounces of soft serve cost 6 dollars and 40 cents. How much for 1 ounce?"
+    },
+    "narrator-5c9f0d7670db8193": {
+      "who": "narrator",
+      "text": "What is 10% of 70?"
+    },
+    "narrator-5e43bb8fd840f7a2": {
+      "who": "narrator",
+      "text": "The recipe uses 2 strawberries for every 3 bananas. We have 9 bananas. How many strawberries do we need?"
+    },
+    "narrator-5ff04e6f50c9991e": {
+      "who": "narrator",
+      "text": "What is 50% of 40?"
+    },
+    "narrator-606d94830093e9f0": {
+      "who": "narrator",
+      "text": "14 oranges balance 8 mangoes. How many mangoes balance 7 oranges?"
+    },
+    "narrator-61a55b92a7fe20d9": {
+      "who": "narrator",
+      "text": "The recipe uses 3 strawberries for every 2 bananas. We have 1 banana. How many strawberries do we need?"
+    },
+    "narrator-61f5b02d46c09a0e": {
+      "who": "narrator",
+      "text": "What percent of 2 is 2 1/2? Zap the raccoon to the guard's size."
+    },
+    "narrator-625eff98b00fa071": {
+      "who": "narrator",
+      "text": "6 balloons lift 3 frogs. How many balloons lift 8 frogs?"
+    },
+    "narrator-62918e96e8740e49": {
+      "who": "narrator",
+      "text": "This triangle floor has a base of 7 and a height of 4. How many squares of paint?"
+    },
+    "narrator-637c2ec0f63bda13": {
+      "who": "narrator",
+      "text": "Okay!"
+    },
+    "narrator-63d81fdb2cf971a0": {
+      "who": "narrator",
+      "text": "Share 12 donuts and 18 candies into matching bags. What is the most bags?"
+    },
+    "narrator-6466fafd31833a40": {
+      "who": "narrator",
+      "text": "1 gallon goes with 4 quarts. How many gallons go with 20 quarts?"
+    },
+    "narrator-64ad81bfa3611826": {
+      "who": "narrator",
+      "text": "Nice! Two stars!"
+    },
+    "narrator-64f4bc7da90127a6": {
+      "who": "narrator",
+      "text": "This triangle floor has a base of 4 and a height of 6. How many squares of paint?"
+    },
+    "narrator-65d50ffe88bdbd87": {
+      "who": "narrator",
+      "text": "What is the best unit to measure the water in a bathtub?"
+    },
+    "narrator-6617f20394207d02": {
+      "who": "narrator",
+      "text": "$6 is 30% of what?"
+    },
+    "narrator-694e7d500439ac6f": {
+      "who": "narrator",
+      "text": "50 guests need 10 pizzas. How many pizzas for 200 guests?"
+    },
+    "narrator-69e7b2a23e28b845": {
+      "who": "narrator",
+      "text": "What is the best unit to measure a road trip?"
+    },
+    "narrator-6b8305266ab1fc29": {
+      "who": "narrator",
+      "text": "How much wrapping paper covers this box? It is 3 by 3 by 3."
+    },
+    "narrator-6cd81fdbc55ad4c0": {
+      "who": "narrator",
+      "text": "How many blue sticks fit in the chocolate bar? 1/4 ÷ 1/3."
+    },
+    "narrator-6e8d83f25236bb33": {
+      "who": "narrator",
+      "text": "6 oranges balance 4 mangoes. How many mangoes balance 9 oranges?"
+    },
+    "narrator-6fe13fe02e5f49ef": {
+      "who": "narrator",
+      "text": "How much wrapping paper covers this box? It is 2 by 3 by 4."
+    },
+    "narrator-71e3819dcc5c7032": {
+      "who": "narrator",
+      "text": "How much wrapping paper covers this box? It is 2 by 3 by 5."
+    },
+    "narrator-72294967fb8ac374": {
+      "who": "narrator",
+      "text": "3 ice creams cost 4 dollars and 50 cents. How much for 5?"
+    },
+    "narrator-7460362a6745de4f": {
+      "who": "narrator",
+      "text": "5 ÷ 1/100. Too hard to draw! Tap the flip button."
+    },
+    "narrator-77b6dde03f61de33": {
+      "who": "narrator",
+      "text": "1 car goes with 4 wheels. How many wheels go with 5 cars?"
+    },
+    "narrator-784199a6b56f147b": {
+      "who": "narrator",
+      "text": "Locked! Coming soon."
+    },
+    "narrator-7907241ab7e1d49b": {
+      "who": "narrator",
+      "text": "The recipe uses 5 oranges for every 2 lemons. We have 4 lemons. How many oranges do we need?"
+    },
+    "narrator-7dc5023a59fbe8c9": {
+      "who": "narrator",
+      "text": "Cut a hole for the loot box. Its area is 3. One side is 1 1/2. How long is the other side?"
+    },
+    "narrator-7e61694598cce7f8": {
+      "who": "narrator",
+      "text": "5/6 ÷ 2/3"
+    },
+    "narrator-7f50632a2569d573": {
+      "who": "narrator",
+      "text": "50 guests need 15 juices. How many juices for 10 guests?"
+    },
+    "narrator-7ff9cc9493f6c6cf": {
+      "who": "narrator",
+      "text": "How many blue sticks fit in the chocolate bar? 3/4 ÷ 1/4."
+    },
+    "narrator-81056264713df3b9": {
+      "who": "narrator",
+      "text": "Which paint is darker? A, B, or are they the same?"
+    },
+    "narrator-83ceaa4cb6373a57": {
+      "who": "narrator",
+      "text": "What is 50% of $14?"
+    },
+    "narrator-871adb1eb83243fd": {
+      "who": "narrator",
+      "text": "The gap is 2. Each plank is 3/4. How many planks?"
+    },
+    "narrator-8b05e495b7d4a1a6": {
+      "who": "narrator",
+      "text": "5 bees go with 2 flowers. How many flowers go with 30 bees?"
+    },
+    "narrator-8b5679c82b5d0b75": {
+      "who": "narrator",
+      "text": "What is the best unit to measure an ant?"
+    },
+    "narrator-8d533349fe6e48da": {
+      "who": "narrator",
+      "text": "The gap is 4. Each plank is 1/3. How many planks?"
+    },
+    "narrator-941035838f1eb796": {
+      "who": "narrator",
+      "text": "This slanted floor has a base of 6 and a height of 3. How many squares of paint?"
+    },
+    "narrator-95d7ee3a8c6c5a7f": {
+      "who": "narrator",
+      "text": "5 ÷ 2 1/2. Is it more than 1, exactly 1, or less than 1?"
+    },
+    "narrator-9648344321636220": {
+      "who": "narrator",
+      "text": "Finish the level before this one first!"
+    },
+    "narrator-9b05973ebafe2f91": {
+      "who": "narrator",
+      "text": "1 meter goes with 100 centimeters. How many centimeters go with 4 meters?"
+    },
+    "narrator-9b8799db4b93c526": {
+      "who": "narrator",
+      "text": "5/6 ÷ 2/3. Too hard to draw! Tap the flip button."
+    },
+    "narrator-9c4997e1210e7e5c": {
+      "who": "narrator",
+      "text": "Which racer is fastest? Bet on the winner!"
+    },
+    "narrator-9c7348a4c6742867": {
+      "who": "narrator",
+      "text": "How much wrapping paper covers this box? It is 4 by 2 by 1."
+    },
+    "narrator-9d4a280c8982e187": {
+      "who": "narrator",
+      "text": "What percent of 2 1/2 is 1? Zap the raccoon to the guard's size."
+    },
+    "narrator-9d870340a5a513d3": {
+      "who": "narrator",
+      "text": "How much wrapping paper covers this box? It is 3 by 2 by 2."
+    },
+    "narrator-9f1f4d5e03fa4aa7": {
+      "who": "narrator",
+      "text": "3 juices cost 7 dollars and 50 cents. How much do 8 juices cost?"
+    },
+    "narrator-a1e89dda0d2b0e17": {
+      "who": "narrator",
+      "text": "What percent of 4 is 1? Zap the raccoon to the guard's size."
+    },
+    "narrator-a26a8c7e92c6de2b": {
+      "who": "narrator",
+      "text": "Which rope is longer? Rope A is 1 yards. Rope B is 1 meters."
+    },
+    "narrator-a6cb08e4dbc9daad": {
+      "who": "narrator",
+      "text": "10 bananas balance 4 pineapples. How many pineapples balance 15 bananas?"
+    },
+    "narrator-a7606d70310b328f": {
+      "who": "narrator",
+      "text": "How much wrapping paper covers this box? It is 4 by 3 by 2."
+    },
+    "narrator-aaacc8aff6436864": {
+      "who": "narrator",
+      "text": "Make the raccoon as tall as the guard. 2 times what equals 1?"
+    },
+    "narrator-acfa4072defc9d3b": {
+      "who": "narrator",
+      "text": "6 cookies go with 1 glass of milk. How many cookies go with 4 glasses of milk?"
+    },
+    "narrator-ae2415dd01ebd162": {
+      "who": "narrator",
+      "text": "3/4 ÷ 3/4. Is it more than 1, exactly 1, or less than 1?"
+    },
+    "narrator-afdf37f01df60d63": {
+      "who": "narrator",
+      "text": "How many 1/3 pieces are in 2?"
+    },
+    "narrator-b1bd24241e06ba07": {
+      "who": "narrator",
+      "text": "15 deliveries take 2 hours. How many hours for 45 deliveries?"
+    },
+    "narrator-b324a5ea590b517d": {
+      "who": "narrator",
+      "text": "8 is 20% of what?"
+    },
+    "narrator-b65a569384ebdc46": {
+      "who": "narrator",
+      "text": "50 guests eat 125 tacos. How many guests eat 25 tacos?"
+    },
+    "narrator-b73e6f1f385122b8": {
+      "who": "narrator",
+      "text": "6 dollars and 40 cents buys 8 ounces. How many ounces for 1 dollar?"
+    },
+    "narrator-b7bca18922594e62": {
+      "who": "narrator",
+      "text": "This triangle floor has a base of 6 and a height of 4. How many squares of paint?"
+    },
+    "narrator-b8107d16b45657b3": {
+      "who": "narrator",
+      "text": "2 cups of yellow for every 4 cups of blue. 18 in all. How many cups of yellow?"
+    },
+    "narrator-b8513dada8a8e3c0": {
+      "who": "narrator",
+      "text": "Pick your hat!"
+    },
+    "narrator-bab7ea1e1cf651df": {
+      "who": "narrator",
+      "text": "The red train comes every 2 minutes. The blue train comes every 3 minutes. When do they both come?"
+    },
+    "narrator-bae7d5b069fc87b7": {
+      "who": "narrator",
+      "text": "One guard always lies! Which guard tells the truth?"
+    },
+    "narrator-bc9736cacebd6ebb": {
+      "who": "narrator",
+      "text": "What percent of 2 is 3? Zap the raccoon to the guard's size."
+    },
+    "narrator-bf63047d7b96a28a": {
+      "who": "narrator",
+      "text": "How much wrapping paper covers this box? It is 3 by 4 by 5."
+    },
+    "narrator-c0cdd2c891ead839": {
+      "who": "narrator",
+      "text": "3 melons go with 5 strawberries. How many strawberries go with 9 melons?"
+    },
+    "narrator-c1cae8111273c68c": {
+      "who": "narrator",
+      "text": "The recipe uses 4 strawberries for every 3 bananas. We have 9 bananas. How many strawberries do we need?"
+    },
+    "narrator-c32799b25d03c459": {
+      "who": "narrator",
+      "text": "10 balloons lift 4 frogs. How many balloons lift 6 frogs?"
+    },
+    "narrator-c3453a445f990679": {
+      "who": "narrator",
+      "text": "3/4 ÷ 3/8. Too hard to draw! Tap the flip button."
+    },
+    "narrator-c583f53498adbfb7": {
+      "who": "narrator",
+      "text": "This triangle floor has a base of 5 and a height of 4. How many squares of paint?"
+    },
+    "narrator-c6113fcee754a4e7": {
+      "who": "narrator",
+      "text": "How many 1/4 pieces are in 3?"
+    },
+    "narrator-c62a8665e41ab360": {
+      "who": "narrator",
+      "text": "3/4 of a jar holds 9. How many fill the whole jar?"
+    },
+    "narrator-c71bc9db8423ddb4": {
+      "who": "narrator",
+      "text": "1 yard goes with 3 feet. How many feet go with 5 yards?"
+    },
+    "narrator-c725872bba66bd0e": {
+      "who": "narrator",
+      "text": "This slanted floor has a base of 5 and a height of 4. How many squares of paint?"
+    },
+    "narrator-ca52dd347a4f79c3": {
+      "who": "narrator",
+      "text": "How much wrapping paper covers this box? It is 5 by 4 by 2."
+    },
+    "narrator-cb1665f2b09aca3f": {
+      "who": "narrator",
+      "text": "3/4 ÷ 3/8"
+    },
+    "narrator-d36ff7524a8dfb93": {
+      "who": "narrator",
+      "text": "1 minute goes with 60 seconds. How many seconds go with 3 minutes?"
+    },
+    "narrator-d37a7c5df46f71fc": {
+      "who": "narrator",
+      "text": "This slanted floor has a base of 4 and a height of 3. How many squares of paint?"
+    },
+    "narrator-d3f77129a5ba7a9c": {
+      "who": "narrator",
+      "text": "How many blue sticks fit in the chocolate bar? 1/2 ÷ 1 1/4."
+    },
+    "narrator-d4023906f4c69dcb": {
+      "who": "narrator",
+      "text": "The recipe uses 3 strawberries for every 2 bananas. We have 6 bananas. How many strawberries do we need?"
+    },
+    "narrator-d64bac6eb88c06c3": {
+      "who": "narrator",
+      "text": "What is the best unit to measure a pencil?"
+    },
+    "narrator-dd269b9d5f216bd0": {
+      "who": "narrator",
+      "text": "Make the raccoon as tall as the guard. 1 1/2 times what equals 3 3/4?"
+    },
+    "narrator-e02b59bf3525a0fc": {
+      "who": "narrator",
+      "text": "The gap is 3. Each plank is 3/4. How many planks?"
+    },
+    "narrator-e1186a4bb7dcf902": {
+      "who": "narrator",
+      "text": "4/5 ÷ 2. Is it more than 1, exactly 1, or less than 1?"
+    },
+    "narrator-e3f45de25407363b": {
+      "who": "narrator",
+      "text": "What is 75% of 80?"
+    },
+    "narrator-e553afd0ac7d5721": {
+      "who": "narrator",
+      "text": "1/3 of a jar holds 3. How many fill the whole jar?"
+    },
+    "narrator-e5fe673ce5b3a707": {
+      "who": "narrator",
+      "text": "How much wrapping paper covers this box? It is 2 by 2 by 3."
+    },
+    "narrator-e944b16a348e0dcb": {
+      "who": "narrator",
+      "text": "This slanted floor has a base of 5 and a height of 3. How many squares of paint?"
+    },
+    "narrator-ee66de87eb882fee": {
+      "who": "narrator",
+      "text": "3 tickets cost 12 dollars. How much for 7 tickets?"
+    },
+    "narrator-efc9b4dab2b14e21": {
+      "who": "narrator",
+      "text": "1 foot goes with 12 inches. How many inches go with 3 feet?"
+    },
+    "narrator-f3103113c2f54752": {
+      "who": "narrator",
+      "text": "6 balloons lift 3 frogs. How many balloons lift 7 frogs?"
+    },
+    "narrator-f3734a5657addc41": {
+      "who": "narrator",
+      "text": "The red train comes every 4 minutes. The blue train comes every 10 minutes. When do they both come?"
+    },
+    "narrator-f7d3c658c87570e3": {
+      "who": "narrator",
+      "text": "4 pounds of granola cost 5 dollars. How much for 1 pound?"
+    },
+    "narrator-fa8371f54b7263d4": {
+      "who": "narrator",
+      "text": "The gap is 2. Each plank is 1/2. How many planks?"
+    },
+    "narrator-faef9283104190c0": {
+      "who": "narrator",
+      "text": "How much wrapping paper covers this box? It is 1 by 2 by 3."
+    },
+    "narrator-fd23062827acc613": {
+      "who": "narrator",
+      "text": "20 ÷ 1/2. Is it more than 1, exactly 1, or less than 1?"
+    },
+    "narrator-ff5fde895a7e2702": {
+      "who": "narrator",
+      "text": "You did it!"
+    }
+  }
+}
